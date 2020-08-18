@@ -8,11 +8,10 @@ import (
 	"os"
 )
 
-const (
-	webHook = "https://blackstitgolangbot.herokuapp.com/"
-)
-
-var tgToken = "1394276809:AAEeMvkmK6NUiu2atp0w912SNBAeoKAxv5E"
+//const (
+//	webHook = "https://blackstitgolangbot.herokuapp.com/"
+//	tgToken = "1394276809:AAEeMvkmK6NUiu2atp0w912SNBAeoKAxv5E"
+//)
 
 func main() {
 	port := os.Getenv("PORT")

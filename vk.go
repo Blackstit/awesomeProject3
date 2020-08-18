@@ -7,11 +7,11 @@ import (
 	"net/url"
 )
 
-const (
-	vkServiceKey = "77fd337377fd337377fd337397778eb76d777fd77fd337328c670c1009d987f845989fb"
-	version      = "5.122"
-	reqURL       = "https://api.vk.com/method/wall.get?"
-)
+//const (
+//	vkServiceKey = "77fd337377fd337377fd337397778eb76d777fd77fd337328c670c1009d987f845989fb"
+//	version      = "5.122"
+//	reqURL       = "https://api.vk.com/method/wall.get?"
+//)
 
 type wallResponse struct {
 	Body body `json:"response"`
