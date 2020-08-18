@@ -27,7 +27,7 @@ type Items struct {
 
 func getPosts(groupId string) ([]Items, error) {
 	u := url.Values{}
-	u.Set("count", "3")
+	u.Set("count", "1")
 	u.Set("offset", "0")
 	u.Set("filter", "owner")
 	u.Set("owner_id", groupId)
