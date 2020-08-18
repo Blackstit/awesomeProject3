@@ -35,7 +35,7 @@ func main() {
 	log.Println("webHook set")
 
 	updates := bot.ListenForWebhook("/")
-	command := "vk"
+	command := "/vk"
 	groupID := "-15365973"
 
 	for update := range updates {
